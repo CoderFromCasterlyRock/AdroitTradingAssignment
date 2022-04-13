@@ -1,7 +1,7 @@
 Adroit Trading Assignment
 
 **Built Using**
-- Jdk 1
+- Jdk 11
 - Maven 3.6.3
 
 **Running Application**
