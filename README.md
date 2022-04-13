@@ -6,19 +6,29 @@ Adroit Trading Assignment
 
 **Running Application**
 ```
-git clone https://github.com/CoderFromCasterlyRock/Adroit-Trading.git
-cd AdroitTrading
-mvn clean install -Dmaven.test.skip=true
+git clone https://github.com/CoderFromCasterlyRock/AdroitTradingAssignment.git
+cd AdroitTradingAssignment
+mvn clean install
+java -jar target/assignment-1.0.jar
+```
+
+OR
+
+```unzip AdroitTradingAssignment.zip .
+cd AdroitTradingAssignment
+mvn clean install
 java -jar target/assignment-1.0.jar
 ```
 
 **Supported Commands**
 
+See available options: ``` gh```
+
 Create url mapping: ``` cu www.google.com ```
 
-Create url mapping with shortUrl:``` cu tiny.ly/goog1 www.google.com```
+Create url mapping with a given short url:``` cu tiny.ly/goog1 www.google.com```
 
-Lookup url mapping:``` lu tiny.ly/goog1```
+Lookup an existing url mapping:``` lu tiny.ly/goog1```
 
 Delete an existing url mapping: ``` du tiny.ly/goog1```
 
